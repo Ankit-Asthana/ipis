@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: classpath:db/changelog/db.commonChangelog-master.yaml
+  - include:
+      file: classpath:db/changelog/db.equipmentsChangelog-master.yaml

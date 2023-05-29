@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.0.5'
+    id 'io.spring.dependency-management' version '1.1.0'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+sourceCompatibility = '17'
+
+
+run {
+    args = ['--server_host=localhost', 'server_port=8085']
+}
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    implementation 'com.github.briandilley.jsonrpc4j:jsonrpc4j:1.6'
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+//    implementation 'com.googlecode.jsonrpc4j:jsonrpc4j:1.5.1'
+//    implementation 'com.github.koober-jsonrpc:jsonrpc-spring-boot-starter:1.0.0'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
+//    implementation 'com.googlecode.jsonrpc4j:jsonrpc4j:1.10.3'
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.26'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
+bootJar {
+    mainClass = 'com.example.appmodule.Main'
+}

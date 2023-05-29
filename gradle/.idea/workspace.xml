@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48552aa5-c8bf-4784-b607-cf23a54ebbb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/org/example/security/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appmodule/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../appmodule/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appmodule/src/main/java/org/example/config/GatewayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../appmodule/src/main/java/org/example/GatewayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/org/example/config/RabbitMqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common/src/main/java/org/example/RabbitMqConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/org/example/config/RabbitMqConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common/src/main/java/org/example/RabbitMqConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/org/example/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common/src/main/java/org/example/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/org/example/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common/src/main/java/org/example/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/application1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../common/src/main/resources/application1.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../equipments/src/main/java/org/example/config/RabbitMqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../equipments/src/main/java/org/example/RabbitMqConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../equipments/src/main/java/org/example/config/RabbitMqConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../equipments/src/main/java/org/example/RabbitMqConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../equipments/src/main/java/org/example/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../equipments/src/main/java/org/example/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../equipments/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../equipments/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moduleaggregator/src/main/java/org/example/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../moduleaggregator/src/main/java/org/example/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moduleaggregator/src/main/java/org/example/controller/AggregatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../moduleaggregator/src/main/java/org/example/AggregatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rakeconfiguration/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rakeconfiguration/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reports/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../reports/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../routemapping/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../routemapping/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../security/src/main/java/org/example/security/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/config/xsc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../security/src/main/java/org/example/security/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/repo/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../security/src/main/java/org/example/security/repo/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/security/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../security/src/main/java/org/example/security/service/AuthenticationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/security/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../security/src/main/java/org/example/security/service/AuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/security/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/security/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/service/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/org/example/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../security/src/main/java/org/example/security/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../subsystems/src/main/java/org/example/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../subsystems/src/main/java/org/example/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../subsystems/src/main/java/org/example/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../subsystems/src/main/java/org/example/RedisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/main/java/org/example/controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/org/example/ProductsController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2PVRHE9tszyDYxmjGQqbq8mvRoy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/innobit/ipis/Java_Backend_Framework/gradle"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48552aa5-c8bf-4784-b607-cf23a54ebbb5" name="Changes" comment="" />
+      <created>1683540172869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683540172869</updated>
+    </task>
+    <servers />
+  </component>
+</project>
